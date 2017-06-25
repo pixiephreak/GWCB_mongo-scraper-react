@@ -1,8 +1,8 @@
 
   // Include React
 import React, { Component } from "react";
-// import ListContainer from './ListContainer';
-
+import Note from './Note';
+import Article from './Article';
 
 // here is where the header and input box go
 class Main extends Component {
@@ -43,7 +43,8 @@ class Main extends Component {
             </div>
             {/* <!--List Container--> */}
             <div className="row">
-                {/* <ListContainer /> */}
+            <Note />
+            <Article />
             </div>
           </div>
         </div>
