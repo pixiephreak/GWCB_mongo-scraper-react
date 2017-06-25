@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from 'react-bootstrap';
 import Bootstrap from './bootstrap/css/bootstrap.css';
-import Css from './css/styles.css'
+import Css from './css/styles.css';
+import Main from './components/Main';
 
-const buttonsInstance = (
-  <Button>Click me!</Button>
-);
-ReactDOM.render(buttonsInstance, document.getElementById('app'));
+
+ReactDOM.render(<Main />, document.getElementById('app'));
